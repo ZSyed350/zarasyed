@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Web Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .image {
+            flex: 1;
+            padding-right: 2rem;
+        }
+        .content {
+            flex: 2;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="image">
+            <img src="headshot.JPEG" alt="Zara Syed Headshot">
+        </div>
+        <div class="content">
+            <h1>Zara Syed</h1>
+            <p>Hello! I’m Zara Syed. I'm a 4th year Mechatronics Engineering student at the University of Waterloo. With 5 internships under my belt, including placements at <strong>Onsemi</strong> and <strong>Magna</strong>, I have professional experience in the areas of:</p>
+            <ul>
+                <li>Machine learning</li>
+                <li>Controls algorithms</li>
+                <li>Digital signals processing</li>
+                <li>Firmware</li>
+                <li>Software development</li>
+                <li>DevOps</li>
+            </ul>
+            <p>Outside of engineering, I also sing and sew clothes. I often put my engineering background to good use, designing my clothes in AutoCAD!</p>
+            <p>Always open to new connections and coffee chats, even virtual ones. Feel free to reach out on <a href="https://www.linkedin.com/in/zara-syed-uw/" target="_blank">LinkedIn</a>.
+            </p>
+            <a href="ZaraSyedResume.pdf" download>
+                <button>Download My Resume</button>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
