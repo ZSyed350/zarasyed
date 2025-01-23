@@ -44,6 +44,31 @@
         body {
             height: 95vh;
         }
+        
+        @media (max-width: 768px) {
+        .container {
+            flex-direction: column; /* Stack the elements vertically */
+            align-items: center; /* Center elements for a clean layout */
+        }
+        .image {
+            order: -1; /* Move the image above the content */
+            padding-right: 0; /* Remove extra padding */
+            margin-bottom: 1rem; /* Add spacing below the image */
+        }
+        .content {
+            text-align: center; /* Optional: Center align text for better readability */
+        }
+        ul {
+            width: fit-content; /* Adjust width to fit content */
+            margin: 0 auto; /* Center the <ul> block */
+            text-align: left; /* Ensure text inside the <ul> is left-aligned */
+            padding: 0; /* Optional: Adjust padding if needed */
+        }
+        img {
+            max-width: 100%; /* Ensure the image is responsive */
+            height: auto; /* Maintain aspect ratio */
+        }
+    }
 
     </style>
 </head>
