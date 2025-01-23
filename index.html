@@ -13,16 +13,21 @@
             align-items: center;
             justify-content: center;
             padding: 2rem;
+            max-width: 70vw;
+            margin: 0 auto;
         }
         .image {
             flex: 1;
             padding-right: 2rem;
+            display: flex; /* Enable Flexbox */
+            justify-content: center; /* Center horizontally (optional, if needed) */
+            align-items: center; /* Center vertically */
         }
         .content {
             flex: 2;
         }
         img {
-            max-width: 100%;
+            max-height: 80vh;
             border-radius: 8px;
         }
         a {
@@ -37,7 +42,7 @@
             color: #313c4d;
         }
         body {
-            height: 100vh;
+            height: 95vh;
         }
 
     </style>
@@ -45,7 +50,7 @@
 <body>
     <main class="container">
         <div class="image">
-            <img src="headshot.JPEG" alt="Zara Syed Headshot">
+            <img src="opt4.jpg" alt="Zara Syed Headshot">
         </div>
         <div class="content">
             <h1>Zara Syed</h1>
